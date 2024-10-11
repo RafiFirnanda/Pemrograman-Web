@@ -1,0 +1,36 @@
+body {
+    padding-top: 70px; /* Menambahkan padding untuk menghindari header fixed */
+}
+
+/* Header styles */
+.header {
+    padding: 100px 0 50px; /* Padding untuk header */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Turunkan posisi heading */
+.hero h1 {
+    margin-top: 40px; /* Mengurangi jarak atas untuk menurunkan heading */
+}
+
+.hero p {
+    margin-top: 20px; /* Menambah jarak atas untuk menurunkan teks paragraf */
+}
+
+/* Tambah margin atas pada konten berikutnya */
+.event-details {
+    margin-top: 80px; /* Tambahkan margin atas untuk memberi jarak dari header */
+}
+
+/* Shadow effect on hover */
+.btn:hover, .detail-box:hover, form input:hover, form button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Hover effect for specific navbar links */
+.navbar-nav .nav-link:hover {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    transition: text-shadow 0.3s ease;
+}
