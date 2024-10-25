@@ -1,7 +1,7 @@
 <?php
 $tinggi = 5; // Tinggi segitiga
 
-for ($i = 1; $i <= $tinggi; $i++) {
+for ($i = $tinggi; $i >= 1; $i--) {
     // Cetak spasi
     for ($j = $tinggi - $i; $j > 0; $j--) {
         echo "&nbsp&nbsp";
@@ -13,7 +13,7 @@ for ($i = 1; $i <= $tinggi; $i++) {
     echo"<br>"; 
 }
 
-for ($i = $tinggi; $i >= 1; $i--) {
+for ($i = 1; $i <= $tinggi; $i++) {
     // Cetak spasi
     for ($j = $tinggi - $i; $j > 0; $j--) {
         echo "&nbsp&nbsp";
